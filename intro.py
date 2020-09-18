@@ -13,4 +13,12 @@ for i in range(num):
     for j in range(i):
         print('*',end='')
     print()
-        
+
+#second pattern
+num=int(input())
+for i in range(num,1,-1):
+    print('*'*i)
+print("*")
+    
+    
+    
